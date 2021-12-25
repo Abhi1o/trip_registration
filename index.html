@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Trip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+    <!-- <h3>Enter Your Detail To Conform Your Participation In College Trip</h3> -->
+    <div class="container">
+        <div class="inner">
+            <div class="image-holder">
+                <img src="usa1.jpg" alt="trip-image">
+            </div>
+
+            <form action="index.php" method="post">  
+            <h3>Registration Form</h3>
+
+                <div class="form-group">
+                    <input type="name" name="name" id="name" placeholder="First Name" required>
+                    <input type="name" name="name" id="name" placeholder="Last Name"required>
+                </div>
+
+                <div class="form-wrapper">
+                    <input type="email" name="email" id="email" placeholder="Email ID" required>
+                </div>
+
+                <div class="form-wrapper">
+                    <input class="form-control" type="date" name="date" id="date" placeholder="DOB" required>
+                </div>
+
+
+                <div class="form-wrapper">
+                    <select class="form-control" name="gender" id="gender" required>
+                        <optgroup>
+                            <option value=""disabled selected >Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                
+
+                <div class="form-wrapper">
+                    <select class="form-control "type="select" name="branch" id="branch" required>
+                        <optgroup>
+                            <option value=""disabled selected >Branch</option>
+                            <option value="Computer Science">Computer Science</option>
+                            <option value="Information Technology">Information Technology</option>
+                            <option value="Electronics">Electronics</option>
+                            <option value="electric">Electronics</option>
+                            <option value="Mechanical">Mechanical</option>
+                            <option value="Civil">Civil</option>
+                        </optgroup>
+                    </select>
+                </div>
+                
+                <div class="form-wrapper">
+                    <select class="form-control "type="select" name="year" id="year" required>
+                        <optgroup class="power">
+                            <option value="" disabled selected >College year</option>
+                            <option value="1"><p>1 <sup>st</sup></p> 1<sup>st <i>2</i></sup> year </option>
+                            <option value="2">2 year</option>
+                            <option value="3">3 year</option>
+                            <option value="4">4 year</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="form-wrapper">
+                    <input type="Contact" name="Contact" id="Contact" placeholder="Contact No." required>
+                </div>
+            
+            <button class="btn">Resistor</button>
+            </form>
+            
+        </div>
+        
+
+        
+    </div>
+    
+</body>
+</html>
